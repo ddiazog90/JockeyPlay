@@ -26,6 +26,7 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.JButton;
 import java.awt.Color;
 import javax.swing.JTable;
+import java.awt.SystemColor;
 
 public class view_bets extends JFrame{
 	public JTextField txt_alias;
@@ -34,15 +35,14 @@ public class view_bets extends JFrame{
 	public JButton btn_bets;
 	public JTable tb_bets;
 	public view_bets(view_main vm) {
-		getContentPane().setBackground(new Color(64, 0, 64));
+		getContentPane().setBackground(SystemColor.inactiveCaption);
 		setResizable(false);
 		setTitle("APOSTADORES");
-		setBounds(1000,50,542,700);
+		setBounds(730,590,750,245);
 		getContentPane().setLayout(null);
-		
 		JPanel pn_controlBets = new JPanel();
 		pn_controlBets.setBackground(new Color(255, 255, 255));
-		pn_controlBets.setBounds(10, 10, 511, 82);
+		pn_controlBets.setBounds(10, 10, 212, 128);
 		getContentPane().add(pn_controlBets);
 		
 		JLabel lblNewLabel = new JLabel("ALIAS:");
@@ -78,8 +78,10 @@ public class view_bets extends JFrame{
 		pn_controlBets.add(btn_bets);
 		
 		JPanel pn_betsTable = new JPanel();
-		pn_betsTable.setBounds(10, 102, 508, 551);
+		pn_betsTable.setBackground(new Color(255, 255, 255));
+		pn_betsTable.setBounds(232, 10, 477, 189);
 		getContentPane().add(pn_betsTable);
+		pn_betsTable.setLayout(null);
 		
 		
 		tb_bets = new JTable();
@@ -88,6 +90,7 @@ public class view_bets extends JFrame{
 		tb_bets.setFont(new Font("Comic Sans MS", Font.PLAIN, 14));
 		//pn_betsTable.add(tb_bets);
 		JScrollPane contTable=new JScrollPane(tb_bets);
+		contTable.setBounds(10,10,452,167);
 		pn_betsTable.add(contTable);
 		
 		

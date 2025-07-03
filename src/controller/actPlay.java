@@ -39,8 +39,12 @@ public class actPlay extends Thread{
 			case 1->l.setObj1X(getRandomValue(20));
 			case 2->l.setObj2X(getRandomValue(20));
 			case 3->l.setObj3X(getRandomValue(20));
+			case 4->l.setObj5X(getRandomValue(20));
+			case 5->l.setObj6X(getRandomValue(20));
+			case 6->l.setObj7X(getRandomValue(20));
 			}
-			if(l.collisionObj1()||l.collisionObj2()||l.collisionObj3())
+			if(l.collisionObj1()||l.collisionObj2()||l.collisionObj3()||
+					l.collisionObj5()||l.collisionObj6()||l.collisionObj7())
 				break;
 			try {
 				sleep(getRandomValue(1000));
@@ -83,6 +87,19 @@ public class actPlay extends Thread{
 					etiqueta= String.format("Ganador %s!!! \n Premio:%s \n Ganadores:%d \n Premio individual:%s", 
 							l.getWinner(),vm.txt_montoTotal.getText(),Integer.parseInt(vm.sp_play3.getValue().toString())
 							,vm.txt_playPagar3.getText());
+				
+				else if(l.getWinner().equals(l.getPlayName5())) 
+					etiqueta= String.format("Ganador %s!!! \n Premio:%s \n Ganadores:%d \n Premio individual:%s", 
+							l.getWinner(),vm.txt_montoTotal.getText(),Integer.parseInt(vm.sp_play4.getValue().toString())
+							,vm.txt_playPagar4.getText());
+				else if(l.getWinner().equals(l.getPlayName6())) 
+					etiqueta= String.format("Ganador %s!!! \n Premio:%s \n Ganadores:%d \n Premio individual:%s", 
+							l.getWinner(),vm.txt_montoTotal.getText(),Integer.parseInt(vm.sp_play5.getValue().toString())
+							,vm.txt_playPagar5.getText());
+				else if(l.getWinner().equals(l.getPlayName7())) 
+					etiqueta= String.format("Ganador %s!!! \n Premio:%s \n Ganadores:%d \n Premio individual:%s", 
+							l.getWinner(),vm.txt_montoTotal.getText(),Integer.parseInt(vm.sp_play6.getValue().toString())
+							,vm.txt_playPagar6.getText());
 				JOptionPane.showMessageDialog(l,etiqueta,"Carrera de Caballos",JOptionPane.INFORMATION_MESSAGE);
 			
 	}
