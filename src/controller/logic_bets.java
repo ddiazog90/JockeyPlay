@@ -75,7 +75,7 @@ public class logic_bets implements ActionListener{
 		b.cmb_plays.addItem(vm.pn_lienzo.getPlayName7());
 	}
 
-	private void loadTable() {
+	public void loadTable() {
 		String [] encabezado= {"CODIGO","ALIAS","APUESTA","CABALLO"};
 		String [][] data=new String[apostadores.size()][4];
 		for(int i=0;i<apostadores.size();i++) {

@@ -1,0 +1,246 @@
+**************************************
+ Thu Jul 03 12:52:40 ECT 2025 
+**************************************
+PEG-78675:Daniel:0.25:PEGASSO
+MIG-95569:Rita:0.5:MIGUELITO
+PER-12612:Dionicio:1.0:PERCHERON
+ECL-87974:Renato:0.25:ECLIPSE
+LUC-17336:Lucho:0.1:LUCAS
+ROG-77762:Roca:0.05:ROGELIO
+ROG-11334:Gato:0.5:ROGELIO
+LUC-07773:Ulises:0.1:LUCAS
+PEG-93416:Otto:0.05:PEGASSO
+LUC-75894:Otto Lucho:0.5:LUCAS
+
+Bet:Renato Caballo:ECLIPSE CDFS:5.0A Pagar $3.3000000000000003
+**************************************
+ Thu Jul 03 14:08:21 ECT 2025 
+**************************************
+PEG-78675:Daniel:0.1:PEGASSO
+PEG-77010:BRY:0.1:PEGASSO
+MIG-88976:LALA:0.1:MIGUELITO
+
+Bet:LALA Caballo:MIGUELITO CDFS:2.0A Pagar $0.3
+**************************************
+ Thu Jul 03 14:08:21 ECT 2025 
+**************************************
+PEG-78675:Daniel:0.1:PEGASSO
+PEG-77010:BRY:0.1:PEGASSO
+MIG-88976:LALA:0.1:MIGUELITO
+
+Bet:LALA Caballo:MIGUELITO CDFS:2.0A Pagar $0.3
+**************************************
+ Thu Jul 03 14:08:21 ECT 2025 
+**************************************
+PEG-78675:Daniel:0.1:PEGASSO
+PEG-77010:BRY:0.1:PEGASSO
+MIG-88976:LALA:0.1:MIGUELITO
+
+Bet:LALA Caballo:MIGUELITO CDFS:2.0A Pagar $0.3
+**************************************
+ Thu Jul 03 14:08:21 ECT 2025 
+**************************************
+PEG-78675:Daniel:0.1:PEGASSO
+PEG-77010:BRY:0.1:PEGASSO
+MIG-88976:LALA:0.1:MIGUELITO
+
+Bet:LALA Caballo:MIGUELITO CDFS:2.0A Pagar $0.3
+**************************************
+ Fri Jul 04 12:27:29 ECT 2025 
+**************************************
+ECL-01578:Juanca:0.25:ECLIPSE
+ROG-86761:Fercho:0.25:ROGELIO
+LUC-38867:Yadira:0.25:LUCAS
+PER-90100:HUgo:0.25:PERCHERON
+MIG-63992:Jairo:1.0:MIGUELITO
+PEG-11808:Lucho:0.1:PEGASSO
+ECL-57129:CARLOTA:0.25:ECLIPSE
+PER-84787:LALO:0.25:PERCHERON
+LUC-34092:LALA:0.25:LUCAS
+MIG-91830:VIVI:0.25:MIGUELITO
+ROG-61606:CRIS:0.25:ROGELIO
+PEG-88719:DARWIN:0.25:PEGASSO
+
+Bet:Jairo Caballo:MIGUELITO CDFS:20.0A Pagar $2.8000000000000003Bet:VIVI Caballo:MIGUELITO CDFS:5.0A Pagar $0.7000000000000001
+**************************************
+ Fri Jul 04 12:27:29 ECT 2025 
+**************************************
+ECL-01578:Juanca:0.25:ECLIPSE
+ROG-86761:Fercho:0.25:ROGELIO
+LUC-38867:Yadira:0.25:LUCAS
+PER-90100:HUgo:0.25:PERCHERON
+MIG-63992:Jairo:1.0:MIGUELITO
+PEG-11808:Lucho:0.1:PEGASSO
+ECL-57129:CARLOTA:0.25:ECLIPSE
+PER-84787:LALO:0.25:PERCHERON
+LUC-34092:LALA:0.25:LUCAS
+MIG-91830:VIVI:0.25:MIGUELITO
+ROG-61606:CRIS:0.25:ROGELIO
+PEG-88719:DARWIN:0.25:PEGASSO
+
+Bet:Jairo Caballo:MIGUELITO CDFS:20.0A Pagar $2.8000000000000003Bet:VIVI Caballo:MIGUELITO CDFS:5.0A Pagar $0.7000000000000001
+**************************************
+ Fri Jul 04 12:44:13 ECT 2025 
+**************************************
+PER-71979:Daniel:0.25:PERCHERON
+ROG-57328:Bry:0.05:ROGELIO
+ECL-12882:Lala:0.05:ECLIPSE
+
+
+**************************************
+ Sun Jul 06 09:26:59 ECT 2025 
+**************************************
+ROG-77595:LUIS:0.05:ROGELIO
+PER-31324:DIEGO:0.25:PERCHERON
+PEG-60141:LUCHO:0.25:PEGASSO
+PEG-16171:JAIRO:0.25:PEGASSO
+ECL-27038:RAUL:0.1:ECLIPSE
+LUC-00639:MARIO:0.1:LUCAS
+LUC-07415:MARCO:0.1:LUCAS
+MIG-83471:ALEX:0.05:MIGUELITO
+
+Bet:MARIO Caballo:LUCAS CDFS:2.0A Pagar $0.58
+Bet:MARCO Caballo:LUCAS CDFS:2.0A Pagar $0.58
+
+**************************************
+ Sun Jul 06 09:46:23 ECT 2025 
+**************************************
+LUC-21256:SANTIAGO:0.25:LUCAS
+MIG-63575:RIO:0.05:MIGUELITO
+PEG-13265:ESTEBAN:0.05:PEGASSO
+ECL-43246:RUBEN:0.05:ECLIPSE
+ECL-09906:ESTACIO:0.05:ECLIPSE
+ROG-61005:SANTIAGO:0.05:ROGELIO
+PER-80167:SANDRA:0.05:PERCHERON
+MIG-75136:Andrea:0.15:MIGUELITO
+PER-26579:Nancy:0.15:PERCHERON
+ROG-57790:Noe:0.05:ROGELIO
+PEG-01625:Nicol:0.25:PEGASSO
+ECL-93348:Ines:0.1:ECLIPSE
+ROG-62050:Irene:0.2:ROGELIO
+MIG-85082:Rocio:0.15:MIGUELITO
+
+Bet:RIO Caballo:MIGUELITO CDFS:1.0A Pagar $0.29
+Bet:Andrea Caballo:MIGUELITO CDFS:2.9999999999999996A Pagar $0.8699999999999998
+Bet:Rocio Caballo:MIGUELITO CDFS:2.9999999999999996A Pagar $0.8699999999999998
+
+**************************************
+ Sun Jul 06 14:21:56 ECT 2025 
+**************************************
+MIG-49332:Fercho:0.25:MIGUELITO
+ROG-15024:Yadira:0.25:ROGELIO
+ECL-53497:Dilan:0.05:ECLIPSE
+PER-83641:Olger:0.15:PERCHERON
+PEG-96923:Titan:0.25:PEGASSO
+LUC-73157:Ulises:0.35:LUCAS
+
+Bet:Olger Caballo:PERCHERON CDFS:2.9999999999999996A Pagar $1.7999999999999996
+
+**************************************
+ Sun Jul 06 16:44:57 ECT 2025 
+**************************************
+LUC-94295:Lucho:0.25:LUCAS
+PER-98152:Karol:0.25:PERCHERON
+
+Bet:Lucho Caballo:LUCAS CDFS:5.0A Pagar $0.5
+
+**************************************
+ Sun Jul 06 16:47:44 ECT 2025 
+**************************************
+PEG-02333:DANIEL:0.05:PEGASSO
+LUC-14394:LALA:0.05:LUCAS
+MIG-62295:BRY:0.05:MIGUELITO
+
+Bet:DANIEL Caballo:PEGASSO CDFS:1.0A Pagar $0.15
+
+**************************************
+ Sun Jul 06 16:49:54 ECT 2025 
+**************************************
+LUC-36726:BRY:0.05:LUCAS
+PEG-30138:LALA:0.05:PEGASSO
+PER-51374:DANY:0.05:PERCHERON
+
+Bet:DANY Caballo:PERCHERON CDFS:1.0A Pagar $NaN
+
+**************************************
+ Sun Jul 06 16:52:40 ECT 2025 
+**************************************
+ECL-34971:DANY:10.0:ECLIPSE
+PER-46071:BRY:0.05:PERCHERON
+LUC-31658:LALA:0.05:LUCAS
+
+
+**************************************
+ Sun Jul 06 16:57:54 ECT 2025 
+**************************************
+PER-00751:LALA:0.05:PERCHERON
+ROG-12704:DANIEL:0.05:ROGELIO
+ROG-66370:BRY:0.05:ROGELIO
+MIG-32948:DANIEL:0.05:MIGUELITO
+
+Bet:LALA Caballo:PERCHERON CDFS:1.0A Pagar $0.2
+
+**************************************
+ Sun Jul 06 17:00:42 ECT 2025 
+**************************************
+PEG-78596:DANIEL:0.05:PEGASSO
+LUC-06490:LALA:0.05:LUCAS
+LUC-50483:BRY:0.05:LUCAS
+MIG-04485:DANIEL:0.05:MIGUELITO
+
+
+**************************************
+ Sun Jul 06 17:00:42 ECT 2025 
+**************************************
+PEG-78596:DANIEL:0.05:PEGASSO
+LUC-06490:LALA:0.05:LUCAS
+LUC-50483:BRY:0.05:LUCAS
+MIG-04485:DANIEL:0.05:MIGUELITO
+
+
+**************************************
+ Sun Jul 06 17:03:40 ECT 2025 
+**************************************
+ECL-12704:BRY:0.05:ECLIPSE
+PER-73347:LALA:0.05:PERCHERON
+MIG-78380:DANIEL:0.05:MIGUELITO
+
+
+**************************************
+ Sun Jul 06 17:06:24 ECT 2025 
+**************************************
+ECL-34390:BRY:0.05:ECLIPSE
+PEG-12970:LALA:0.05:PEGASSO
+BLA-94395:DANIEL:0.05:BLACKY
+
+Bet:DANIEL Caballo:BLACKY CDFS:1.0A Pagar $NaN
+
+**************************************
+ Sun Jul 06 17:09:22 ECT 2025 
+**************************************
+BLA-30442:LALA:0.05:BLACKY
+ROG-83196:BRY:0.05:ROGELIO
+LUC-02083:DANIEL:0.05:LUCAS
+
+Bet:LALA Caballo:BLACKY CDFS:1.0A Pagar $NaN
+
+**************************************
+ Sun Jul 06 17:12:07 ECT 2025 
+**************************************
+LUC-24693:DANIEL:0.05:LUCAS
+ECL-44988:LALA:0.05:ECLIPSE
+BLA-23416:BRY:0.05:BLACKY
+
+
+**************************************
+ Tue Jul 15 15:28:10 ECT 2025 
+**************************************
+ECL-01847:Daniel:0.25:ECLIPSE
+PEG-41861:Alex:0.25:PEGASSO
+PER-19235:Nicol:0.05:PERCHERON
+ROG-56694:Marissa:0.1:ROGELIO
+PER-05113:Luis:0.3:PERCHERON
+ECL-93181:Mario:1.0:ECLIPSE
+
+Bet:Alex Caballo:PEGASSO CDFS:5.0A Pagar $1.9
+

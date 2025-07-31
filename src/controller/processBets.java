@@ -1,5 +1,6 @@
 package controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JLabel;
@@ -13,7 +14,7 @@ public class processBets extends Thread{
 	private view_main vm;
 	private logic_view_main lvm;
 	private betsDAO bdao;
-	private List<bets> allBets;
+	private List<bets> allBets=new ArrayList<>();
 	private boolean state=true;
 	public processBets(view_main vm, logic_view_main lvm) {
 		super();

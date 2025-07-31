@@ -1,7 +1,12 @@
  package controller;
 
+import java.io.IOException;
+import java.util.List;
+
 import javax.swing.JOptionPane;
 
+import model.bets;
+import model.betsDAO;
 import view.lienzo;
 import view.view_main;
 
@@ -11,6 +16,7 @@ public class actPlay extends Thread{
 	private int play;
 	private final Object monitor=new Object();
 	private boolean paused=false;
+	
 
 
 	public actPlay(lienzo l, int play_,view_main vm) {
@@ -55,12 +61,19 @@ public class actPlay extends Thread{
 		}
 		try {
 			sleep(5000);
+			
+			winner(); //Permite obtener los ganadores 
+			//premio();
+			l.estadoInicial();
+			
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
-		premio();
-		l.estadoInicial();
+		
 	}
 	public void pausar() {
 		synchronized(monitor) {
@@ -102,6 +115,52 @@ public class actPlay extends Thread{
 							,vm.txt_playPagar6.getText());
 				JOptionPane.showMessageDialog(l,etiqueta,"Carrera de Caballos",JOptionPane.INFORMATION_MESSAGE);
 			
+	}
+	
+	private void winner() throws IOException {
+		synchronized(monitor) {
+			betsDAO bdao=new betsDAO();
+			List<bets>allBets=bdao.getBets();
+			if(!allBets.get(0).getCod().equals("-1")) {
+				String msg="";
+				for(bets b:allBets) {
+					if(b.getPlay().equals(l.getWinner())) {
+						double valor=0,cdf=0;
+						//valor=Double.parseDouble(vm.txt_playPagar1.getText().split(" ")[1].replace(',', '.'));
+						if(l.getWinner().equals(l.getPlayName1()))
+							valor=getValor(vm.txt_playPagar1.getText());
+						else if(l.getWinner().equals(l.getPlayName2()))
+							valor=getValor(vm.txt_playPagar2.getText());
+						else if(l.getWinner().equals(l.getPlayName3()))
+							valor=getValor(vm.txt_playPagar3.getText());
+						else if(l.getWinner().equals(l.getPlayName5()))
+							valor=getValor(vm.txt_playPagar4.getText());
+						else if(l.getWinner().equals(l.getPlayName6()))
+							valor=getValor(vm.txt_playPagar5.getText());
+						else if(l.getWinner().equals(l.getPlayName7()))
+							valor=getValor(vm.txt_playPagar6.getText());
+						cdf=Double.parseDouble(b.getMonto())/Double.parseDouble(vm.txt_base.getText().split(" ")[1]);		
+						msg+=("Bet:"+b.getAlias()+" Caballo:"+b.getPlay()+" CDFS:"+cdf +"A Pagar $"+(cdf*valor))+"\n";
+						System.out.println(msg);
+					}
+				}
+				bdao.backup(msg);
+				clearValues();//limpia los campos de los spinners para los jugadores
+			}
+		}
+	}
+	
+	private double getValor(String value) {
+		return Double.parseDouble(value.split(" ")[1].replace(',', '.'));
+	}
+	private void clearValues() {
+		vm.sp_play1.setValue(0);
+		vm.sp_play2.setValue(0);
+		vm.sp_play3.setValue(0);
+		vm.sp_play4.setValue(0);
+		vm.sp_play5.setValue(0);
+		vm.sp_play6.setValue(0);
+		
 	}
 
 }
